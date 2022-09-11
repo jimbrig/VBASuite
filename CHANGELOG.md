@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+### Features
+
+- Create git-cliff GHA
+
+## [1.0.1] - 2022-09-11
+
 ### Documentation
 
 - Update README
@@ -15,6 +21,11 @@ All notable changes to this project will be documented in this file.
 - Add xvba modules
 - Add optimization VBA modules
 - Init modSetup and modUtils
+- Add git-cliff to repo
+
+### Gitflow-release-stash
+
+- V1.0.1
 
 ## [1.0.0] - 2022-09-11
 
