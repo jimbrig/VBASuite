@@ -11,11 +11,13 @@ All notable changes to this project will be documented in this file.
 ### Features
 
 - Create git-cliff GHA
+- Add installation batch file
 
 ### Miscellaneous Tasks
 
 - Autopublish 2022-09-11T19:06:02Z
 - Autopublish 2022-09-11T19:06:49Z
+- Autopublish 2022-09-11T19:13:29Z
 
 ## [1.0.1] - 2022-09-11
 
