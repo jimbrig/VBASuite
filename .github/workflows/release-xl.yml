@@ -1,0 +1,22 @@
+name: Release Pipeline
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Upload Excel file to GitHub Release Page
+        if: github.event_name == 'release'
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./VBASuite.xlsm
+          asset_name: VBASuite-${{ github.event.release.tag_name }}.xlsm
+          asset_content_type: application/zip
