@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 - Create git-cliff GHA
 
+### Miscellaneous Tasks
+
+- Autopublish 2022-09-11T19:06:02Z
+
 ## [1.0.1] - 2022-09-11
 
 ### Documentation
