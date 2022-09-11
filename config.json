@@ -1,0 +1,18 @@
+{
+    "app_name": "VBASuite",
+    "description": "Excel VBA Suite",
+    "author": "Jimmy Briggs",
+    "email": "jimmy.briggs@jimbrig.com",
+    "create_date": "Sun Sep 11 2022 14:47:26 GMT-0400 (Eastern Daylight Time)",
+    "excel_file": "VBASuite.xlsm",
+    "vba_folder": "src",
+    "ribbon_file": "customUI14",
+    "ribbon_folder": "ribbons",
+    "logs": "on",
+    "xvba_packages": {
+
+    },
+    "xvba_dev_packages": {
+        
+    }
+}
