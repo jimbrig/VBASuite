@@ -4,9 +4,18 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+### Documentation
+
+- Enhance README development tools
+
 ### Features
 
 - Create git-cliff GHA
+
+### Miscellaneous Tasks
+
+- Autopublish 2022-09-11T19:06:02Z
+- Autopublish 2022-09-11T19:06:49Z
 
 ## [1.0.1] - 2022-09-11
 

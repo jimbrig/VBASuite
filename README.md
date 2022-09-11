@@ -16,7 +16,31 @@
 
 ### VBA Modules
 
+- [modUtils](src/VBASuite.xlsm/modUtils.bas): Utilities Module
+- [modSetup](src/VBASuite.xlsm/modSetup.bas): Module housing various setup workflows
+- [modOptimize](src/VBASuite.xlsm/modOptimize.bas): VBA optimization module
+
 ### Git and Excel
+
+This repository utilizes the following resources for optimal VBA, Excel, and Git Integrations:
+
+- [Git Flow]()
+- [Git LFS]()
+- [GitHub CLI]()
+- [Git XL](https://www.xltrail.com/git-xl)
+- [vbaDeveloper Excel AddIn]()
+- [xvba VSCode Addins]()
+
+Other tools worth mentioning:
+
+- [ImportExcel PowerShell Module]()
+- [vba-blocks CLI tool]()
+
+#### Setup
+
+1. Download and install [Git XL](https://www.xltrail.com/git-xl) from the [xltrail](https://www.xltrail.com/) website.
+2. Initialize Git XL via `git xl install` and then `git xl install --local`.
+3. Initialize Git-LFS and Git-Flow on the repository, add respective `.gitattributes`.
 
 ### Release Workflow
 
